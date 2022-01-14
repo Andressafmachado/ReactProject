@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+}
+
+#container {
+    display: table;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("background3.jpg");
+    background-color: rgba(98, 100, 221, 0.137);
+    background-size: 100% 100%;
+    overflow: relative;
+}
+
+
+#header {
+    margin: 0px;
+    padding: 10px;
+    background-color: #1d3557;
+    color: #f1faee;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    margin: 0;
+	padding: 19px 18px;
+	font-size: 45px;
+	line-height: 44px;
+	letter-spacing: 1px;
+	font-weight: 500;
+    background-size: 100% 100%;  
+}
+li {
+    display: inline;
+   
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #0096c7;
+  }
+
+ 
+
+  h1 {
+      font-family: serif;
+      color: white;
+      padding: 02px 20px 15px;
+  }
+
+  #teste {
+    font-family: Impact;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    padding: 02px 20px 15px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: background-position 1250ms ease;
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(253, 253, 253), #83827d 50%, rgb(255, 255, 255) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+  }
+
+  p::first-letter {
+    font-size: 200%;
+    color: #ffffff;
+    margin-left: 40px;
+  }
+
+  #teste:hover {
+    background-color: black;
+    background-position: 0 100%;
+    
+  }
+
+  footer {
+    
+    background-color: #1d3557;
+    color: #f1faee;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    letter-spacing: 1px;
+    font-weight: 10; 
+    text-align: center;
+    padding: 08px 12px 10px;
+
+  }
+
+  #email {
+    color: #f1faee;
+ }
+
+ #email:hover {
+    color: #8082eb;
+    background-color: black;
+    padding: 02px 10px 08px; 
+ }
+
+ #email:visited {
+    color: #4a4b92;
+ }
